@@ -1,0 +1,15 @@
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Fjalla One', sans-serif;
+}
+body {
+    background-color: var(--body);
+}
+
+:root {
+    --body: #F9F4F4;
+    --ice-cream2: #63BEBE;
+    --font-color: #FFFFFF;
+}

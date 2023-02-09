@@ -1,0 +1,42 @@
+.ice-cream__details {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    margin: 10rem 1rem;
+}
+
+.ice-cream__details-main {
+    position: relative;   
+}
+
+.ice-cream__details-container {
+    background-color: var(--ice-cream2);
+    width: 40rem;
+    height: 34.75rem;
+    padding: 1rem;
+
+    border-top-left-radius: 20%;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
+
+.ice-cream__details-header {
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+
+.ice-cream__details-container p {
+    line-height: 1.6rem;
+}
+
+.ice-cream__details-image {
+    position: absolute;
+    top: -30%;
+    width: 25rem;
+}
