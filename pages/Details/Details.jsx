@@ -60,7 +60,6 @@ const Details = () => {
                         }} />
                 </picture>
             </div>
-
         </motion.section>
     )
 }
